@@ -13,6 +13,7 @@
 
 body {
   font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -99,3 +100,22 @@ a {
 }
 
 /* Header Part End */
+
+/* Footer Part */
+footer {
+  background-color: var(--color-232F3E);
+}
+
+footer:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer .input-group-text {
+  background-color: var(--color-232F3E);
+  color: white;
+  padding: 8px 17px;
+  font-size: 14px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+/* Footer Part End */

@@ -34,7 +34,7 @@ const Header = () => {
             <div className="col-2">
               <h1 className="">
                 <Link to="/" className="text-white">
-                  Shopy
+                  Shoppy
                 </Link>
               </h1>
             </div>
