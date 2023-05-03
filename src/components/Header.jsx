@@ -134,19 +134,19 @@ const Header = () => {
                 </div>
                 <div className="menu-links">
                   <ul className="d-flex align-items-center gap-15 mb-0">
-                    <NavLink to="/" className="text-white">
+                    <NavLink to="/" className="header-link">
                       Home
                     </NavLink>
 
-                    <NavLink to="/" className="text-white">
+                    <NavLink to="/" className="header-link">
                       Our Store
                     </NavLink>
 
-                    <NavLink to="/" className="text-white">
+                    <NavLink to="/" className="header-link">
                       Blogs
                     </NavLink>
 
-                    <NavLink to="/contact" className="text-white">
+                    <NavLink to="/contact" className="header-link">
                       Contact
                     </NavLink>
                   </ul>
