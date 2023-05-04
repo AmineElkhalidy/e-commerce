@@ -3,6 +3,14 @@ import React from "react";
 // Routing
 import { Link } from "react-router-dom";
 
+// Marquee
+import Marquee from "react-fast-marquee";
+
+// Components
+import BlogCard from "../components/BlogCard";
+import ProductCard from "../components/ProductCard";
+import SpecialProduct from "../components/SpecialProduct";
+
 const Home = () => {
   return (
     <>
@@ -222,6 +230,140 @@ const Home = () => {
                   <img src="images/camera.jpg" alt="camera" />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="featured-wrapper py-5 px-1 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Featured Collection</h3>
+            </div>
+
+            <div className="row">
+              <ProductCard
+                image={"images/watch.jpg"}
+                brand={"Havels"}
+                title={"Kids headphones 10 pack multi colored for student"}
+                rating={5}
+                price={"100.00"}
+              />
+              <ProductCard
+                image={"images/watch.jpg"}
+                brand={"Sony"}
+                title={"Kids headphones 10 pack multi colored for student"}
+                rating={5}
+                price={"100.00"}
+              />
+              <ProductCard
+                image={"images/watch.jpg"}
+                brand={"Havels"}
+                title={"Kids headphones 10 pack multi colored for student"}
+                rating={5}
+                price={"100.00"}
+              />
+              <ProductCard
+                image={"images/watch.jpg"}
+                brand={"Sony"}
+                title={"Kids headphones 10 pack multi colored for student"}
+                rating={5}
+                price={"100.00"}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="special-wrapper py-5 px-1 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Special Products</h3>
+            </div>
+
+            <div className="row">
+              <SpecialProduct />
+              <SpecialProduct />
+              <SpecialProduct />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="marquee-wrapper py-5 px-1">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="marquee-inner-wrapper card-wrapper">
+                <Marquee className="d-flex">
+                  <div className="mx-4 w-25">
+                    <img src="images/brand-01.png" alt="brand logo" />
+                  </div>
+
+                  <div className="mx-4 w-25">
+                    <img src="images/brand-02.png" alt="brand logo" />
+                  </div>
+
+                  <div className="mx-4 w-25">
+                    <img src="images/brand-03.png" alt="brand logo" />
+                  </div>
+
+                  <div className="mx-4 w-25">
+                    <img src="images/brand-04.png" alt="brand logo" />
+                  </div>
+
+                  <div className="mx-4 w-25">
+                    <img src="images/brand-05.png" alt="brand logo" />
+                  </div>
+
+                  <div className="mx-4 w-25">
+                    <img src="images/brand-06.png" alt="brand logo" />
+                  </div>
+
+                  <div className="mx-4 w-25">
+                    <img src="images/brand-07.png" alt="brand logo" />
+                  </div>
+
+                  <div className="mx-4 w-25">
+                    <img src="images/brand-08.png" alt="brand logo" />
+                  </div>
+                </Marquee>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="blog-wrapper py-5 px-1 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Our Latest News</h3>
+            </div>
+
+            <div className="row">
+              <BlogCard
+                image={"/images/blog-1.jpg"}
+                date={"1 Dec, 2021"}
+                title={"A Beautiful Sunday Morning Renaissance "}
+              />
+              <BlogCard
+                image={"/images/blog-1.jpg"}
+                date={"1 Dec, 2021"}
+                title={"A Beautiful Sunday Morning Renaissance "}
+              />
+              <BlogCard
+                image={"/images/blog-1.jpg"}
+                date={"1 Dec, 2021"}
+                title={"A Beautiful Sunday Morning Renaissance "}
+              />
+              <BlogCard
+                image={"/images/blog-1.jpg"}
+                date={"1 Dec, 2021"}
+                title={"A Beautiful Sunday Morning Renaissance "}
+              />
             </div>
           </div>
         </div>
