@@ -276,6 +276,22 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="famous-wrapper py-5 px-1 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-3">
+              <div className="famous-card bg-dark">
+                <h5>Big Screen</h5>
+                <h6>Smart Watch Series 7</h6>
+              </div>
+            </div>
+            <div className="col-3"></div>
+            <div className="col-3"></div>
+            <div className="col-3"></div>
+          </div>
+        </div>
+      </section>
+
       <section className="special-wrapper py-5 px-1 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
@@ -288,6 +304,47 @@ const Home = () => {
               <SpecialProduct />
               <SpecialProduct />
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="popular-wrapper py-5 px-1 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Our Popular Products</h3>
+            </div>
+          </div>
+
+          <div className="row">
+            <ProductCard
+              image={"images/watch.jpg"}
+              brand={"Havels"}
+              title={"Kids headphones 10 pack multi colored for student"}
+              rating={5}
+              price={"100.00"}
+            />
+            <ProductCard
+              image={"images/watch.jpg"}
+              brand={"Sony"}
+              title={"Kids headphones 10 pack multi colored for student"}
+              rating={5}
+              price={"100.00"}
+            />
+            <ProductCard
+              image={"images/watch.jpg"}
+              brand={"Havels"}
+              title={"Kids headphones 10 pack multi colored for student"}
+              rating={5}
+              price={"100.00"}
+            />
+            <ProductCard
+              image={"images/watch.jpg"}
+              brand={"Sony"}
+              title={"Kids headphones 10 pack multi colored for student"}
+              rating={5}
+              price={"100.00"}
+            />
           </div>
         </div>
       </section>

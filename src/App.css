@@ -31,6 +31,10 @@ a {
   border-color: inherit;
 }
 
+.gap-5 {
+  gap: 5px;
+}
+
 .gap-10 {
   gap: 10px;
 }
@@ -414,11 +418,15 @@ footer .input-group-text {
 /* Special Product Part */
 .special-product-card {
   background-color: white;
-  padding: 10px;
+  padding: 20px 10px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+
+.special-product-card .badge {
+  background-color: #eb353b !important;
 }
 /* Special Product Part End */
