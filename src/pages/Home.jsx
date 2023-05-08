@@ -280,14 +280,70 @@ const Home = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-3">
-              <div className="famous-card bg-dark">
-                <h5>Big Screen</h5>
-                <h6>Smart Watch Series 7</h6>
+              <div className="famous-card position-relative bg-dark shadow-sm">
+                <img
+                  className="img-fluid"
+                  src="images/famous-1.png"
+                  alt="famous product"
+                />
+
+                <div className="famous-content position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p>From $399 or $16.62/mo. for 24 mo.</p>
+                </div>
               </div>
             </div>
-            <div className="col-3"></div>
-            <div className="col-3"></div>
-            <div className="col-3"></div>
+
+            <div className="col-3">
+              <div className="famous-card position-relative bg-white shadow-sm">
+                <img
+                  className="img-fluid"
+                  src="images/famous-1.png"
+                  alt="famous product"
+                />
+
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Studio Display</h5>
+                  <h6 className="text-dark">Latest MacBook</h6>
+                  <p className="text-dark">27 inch 5K Retina display</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-3">
+              <div className="famous-card position-relative bg-white shadow-sm">
+                <img
+                  className="img-fluid"
+                  src="images/famous-1.png"
+                  alt="famous product"
+                />
+
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Smartphones</h5>
+                  <h6 className="text-dark">Smartphone 13 Pro</h6>
+                  <p className="text-dark">
+                    Now in Green From $999 or 42$, for 24 mo.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-3">
+              <div className="famous-card position-relative bg-white shadow-sm">
+                <img
+                  className="img-fluid"
+                  src="images/famous-1.png"
+                  alt="famous product"
+                />
+
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Home Speakers</h5>
+                  <h6 className="text-dark">Room-filling sound</h6>
+                  <p className="text-dark">From $699 or 16$, for 12 mo.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -300,6 +356,7 @@ const Home = () => {
             </div>
 
             <div className="row">
+              <SpecialProduct />
               <SpecialProduct />
               <SpecialProduct />
               <SpecialProduct />
