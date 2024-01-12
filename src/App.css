@@ -469,3 +469,23 @@ footer .input-group-text {
 }
 
 /* Famous products Part End */
+
+/* Our Store Part */
+.filter-card {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.filter-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-1C1C1B);
+}
+
+/* Our Store Part End */
